@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:   black;
+    height: 100vh;
+    box-sizing: border-box;   
+}
+.presentacion {
+    display: flex;
+    align-items: center;
+    margin: 5%  20%;
+    justify-content: space-between;
+}
+.presentacion_Contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.texto-destacado {
+    color: bisque;
+    border: 2px solid red;
+    padding: 5px;
+}
+.presentacion_Contenido_titulo-blog{
+    color: red;
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.presentacion_Contenido_titulo-blog_destacado{
+    color: aqua;
+}
+.presentacion_Contenido_texto {
+    font-size: 24px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.presentacion_Contenido_linkeadores {
+    display: flex;
+    justify-content: space-between;
+}
+.presentacion_Contenido_linkeadores__botones{
+    width: 280px;
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
