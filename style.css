@@ -41,18 +41,33 @@ body{
     color: white;
     font-family: "Montserrat", sans-serif;
 }
+
 .presentacion_Contenido_linkeadores {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.presentacion_Contenido_linkeadores_titulo{
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    color: #F6F6F6;
+    font-weight: 400;
 }
 .presentacion_Contenido_linkeadores__botones{
-    width: 280px;
-    background-color: #22D4FD;
+    width: 378px;
+    border: 2px solid #22D4FD;
+    color: #F6F6F6;
     text-align: center;
     padding: 21.5px 0;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-decoration: none;
 }
+.presentacion_Contenido_linkeadores__botones:hover  {
+    background-color: #272727;
+}
+
