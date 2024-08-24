@@ -7,7 +7,6 @@
 }
 body{
     background-color:   black;
-    height: 100vh;
     box-sizing: border-box;   
 }
 .presentacion {
@@ -66,8 +65,22 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 .presentacion_Contenido_linkeadores__botones:hover  {
     background-color: #272727;
+    color: #22D4FD;
+    width: 400px;
+    cursor: pointer;
 }
-
+.footer {
+    color: #272727;
+    display: flex;
+    justify-content: center;
+    background-color: #22D4FD;
+    padding: 24px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
