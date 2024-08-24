@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario: #1E201E;
+    --color-secundario: #697565;
+    --color-terciario: #3C3D37;
+    --color-hover-boton: #272727;
+
+    --fuente-monserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:   var(--color-primario);
+    box-sizing: border-box;
+    color: var(--color-secundario);  
+}
+.header{
+    padding: 2% 0% 0% 15%;
+}
+.header_about{
+    padding: 0% 0% 0% 15%;
+    margin-top: 1px;
+}
+.header_curriculum {
+    padding: 2% 0% 0% 14%;
+    margin-left: 16.4px;
+}
+.header_menu{
+    display: flex;
+    gap: 80px;
+}
+.header_menu_link {
+    font-size: 24px;
+    font-family: var(--fuente-monserrat);
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-terciario);
+}
+.presentacion {
+    display: flex;
+    align-items: center;
+    padding: 2%  15%;
+    justify-content: space-between;
+}
+.presentacion_Contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+.presentacion_Contenido_titulo-blog{
+    color: var(--color-secundario);
+    font-size: 36px;
+    font-family: var(--fuente-krona);
+}
+.presentacion_Contenido_titulo-blog_destacado{
+    color: var(--color-terciario);
+}
+
+.presentacion_Contenido_texto {
+    font-size: 24px;
+    color: var(--color-secundario);
+    font-family: var(--fuente-monserrat);
+}
+.presentacion_Contenido_texto a{
+    text-decoration: none;
+    color: var(--color-terciario);
+}
+.presentacion_Contenido_texto a:hover{
+    color: var(--color-secundario);
+}
+
+.presentacion_Contenido_linkeadores {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.presentacion_Contenido_linkeadores_titulo{
+    font-family: var(--fuente-krona);
+    font-size: 24px;
+    color: var(--color-secundario);
+    font-weight: 400;
+}
+.presentacion_Contenido_linkeadores__botones{
+    width: 378px;
+    border: 2px solid var(--color-terciario);
+    color: var(--color-secundario);
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: var(--fuente-monserrat);
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.presentacion_Contenido_linkeadores__botones:hover  {
+    background-color: var(--color-hover-boton);
+    color: var(--color-secundario);
+    width: 400px;
+    cursor: pointer;
+}
+.footer {
+    color: var(--color-primario);
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-terciario);
+    padding: 28px;
+    font-size: 24px;
+    font-family: var(--fuente-monserrat);
+}
+.footer_curruculum {
+    color: var(--color-primario);
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-terciario);
+    padding: 28px;
+    font-size: 24px;
+    font-family: var(--fuente-monserrat);
+    margin-top: 35px;
+}
+
