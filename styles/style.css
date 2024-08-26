@@ -143,3 +143,8 @@ body{
     }
 
 }
+@media (max-width: 720px) {
+    .header_menu{
+        gap: 30px;
+    }
+}
