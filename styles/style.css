@@ -28,14 +28,6 @@ body{
 .header{
     padding: 2% 0% 0% 14%;
 }
-.header_about{
-    padding: 0% 0% 0% 14%;
-    margin-top: 0.0625rem;
-}
-.header_curriculum {
-    padding: 2% 0% 0% 13.88%;
-    
-}
 .header_menu{
     display: flex;
     gap: 80px;
@@ -47,15 +39,19 @@ body{
     text-decoration: none;
     color: var(--color-terciario);
 }
+.header_menu_link:hover {
+    color: var(--color-secundario);
+}
 .presentacion {
     display: flex;
     align-items: center;
     padding: 2%  14%;
     justify-content: space-between;
     flex: 1;
+    gap: 82px;
 }
 .presentacion_Contenido{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -96,7 +92,7 @@ body{
     font-weight: 400;
 }
 .presentacion_Contenido_linkeadores__botones{
-    width: 378px;
+    width: 50%;
     border: 2px solid var(--color-terciario);
     color: var(--color-secundario);
     text-align: center;
@@ -113,25 +109,37 @@ body{
 .presentacion_Contenido_linkeadores__botones:hover  {
     background-color: var(--color-hover-boton);
     color: var(--color-terciario);
-    width: 400px;
+    width: 60%;
     cursor: pointer;
+}
+.presentacion_img {
+    width: 50%;
 }
 .footer {
     color: var(--color-primario);
     display: flex;
     justify-content: center;
     background-color: var(--color-terciario);
-    padding: 1.4rem;
-    font-size: 1.5rem;
-    font-family: var(--fuente-monserrat);
-}
-.footer_curruculum {
-    color: var(--color-primario);
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-terciario);
-    padding: 1.5rem;
+    padding: 0.4rem;
     font-size: 1.5rem;
     font-family: var(--fuente-monserrat);
 }
 
+@media (max-width: 1200px) {
+    
+    .header{
+        padding: 2%;
+    }
+    .header_menu{
+        justify-content: center;
+    }
+    .presentacion{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .presentacion_Contenido{
+        width: auto;
+    }
+
+}
